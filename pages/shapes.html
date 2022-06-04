@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/shapes.js"></script>
+    <title>Shapes</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Back to index</a>
+    </nav>
+    <h1>Shapes</h1>
+    <section class="square">
+        <h2>Square</h2>
+        <label for="squareSize">Size : </label>
+        <input type="number" name="squareSize" id="squareSize" placeholder="Enter the size of the square.">
+        <button onclick="getSquareDiagonale()">Get diagonale</button>
+        <p id="squareDiagonale"></p>
+    </section>
+    <section class="triangle">
+        <h2>Triangle</h2>
+        <label for="firstSide">First side : </label>
+        <input type="number" name="firstSide" id="firstSide" placeholder="Enter the first side of the triangle.">
+        <label for="secondSide">Second size : </label>
+        <input type="number" name="secondSide" id="secondSide" placeholder="Enter the second side of the triangle.">
+        <label for="thirdSide">Third size : </label>
+        <input type="number" name="thirdSide" id="thirdSide" placeholder="Enter the third side of the triangle.">
+        <p id="triangleArea"></p>
+        <button onclick="getTriangleArea()">Get area</button>
+    </section>
+    <section class="circle">
+        <h2>Triangle</h2>
+        <label for="circleDiameter">Diameter </label>
+        <input type="number" name="circleDiameter" id="circleDiameter" placeholder="Enter the diameter of the circle.">
+        <p id="circleDatas"></p>
+        <button onclick="getCircleDatas()">Get circle datas</button>
+    </section>
+</body>
+</html>
